@@ -55,11 +55,16 @@ a:hover, a:focus, a:active {
 
 
 
+.navbar-static-top {
+  margin: 0;
+  border: 0;
+  color: #fff;
+}
 
 .navbar-main {
   margin-bottom: 0;
-  color: #fff;
-  background: red;
+  color: var(--sandy-brown);
+  background: var(--main-title);
 }
 .navbar-main .navbar-brand {
   border-bottom: none !important;
