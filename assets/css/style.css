@@ -52,18 +52,14 @@ a:hover, a:focus, a:active {
   --onyx:hsl(0,0%,27%);
 }
 
-.navbar-static-top {
-  margin: 0;
-  border: 0;
-  color: #ffffff;
-} 
+
 
 
 
 .navbar-main {
   margin-bottom: 0;
   color: #fff;
-  background: var(--main-title);
+  background: #1f76bd;
 }
 .navbar-main .navbar-brand {
   border-bottom: none !important;
@@ -73,14 +69,13 @@ a:hover, a:focus, a:active {
 .navbar-main a:focus,
 .navbar-main a.is-active {
   background: none !important;
-  color: var(--sandy-brown);
-  border-bottom: 2px solid var(--sandy-brown);
+  color: inherit;
+  border-bottom: 2px solid #fff;
 }
 .navbar-main .submenu {
   position: absolute;
   list-style: none;
-  background: var(--white);
-  color: var(--eerie-black);
+  background: #1f76bd;
   padding: 0;
   width: 150px;
   left: -35px;
@@ -92,10 +87,10 @@ a:hover, a:focus, a:active {
   transition: all, 0.05s;
 }
 .navbar-main .submenu li {
-  border-top: 1px solid var(--sandy-brown);
+  border-top: 1px solid #185b91;
 }
 .navbar-main .submenu li:hover {
-  background: var(--white);
+  background: #185b91;
   -moz-transition: all, 0.3s;
   -o-transition: all, 0.3s;
   -webkit-transition: all, 0.3s;
@@ -126,7 +121,6 @@ a:hover, a:focus, a:active {
 .navbar-main .icon-bar {
   background: #fff;
 }
-
 /* Home Slider 
 ================================= */
 .carousel-home img {
@@ -473,7 +467,6 @@ a:hover, a:focus, a:active {
 }
 
 .footer .footer-social {
-  width: 100vh;
   position: relative;
   margin-top: 20px;
   display: flex;
