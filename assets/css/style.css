@@ -80,7 +80,7 @@ a:hover, a:focus, a:active {
 .navbar-main .submenu {
   position: absolute;
   list-style: none;
-  background: var(--ter);
+  background: var(--main-title);
   font-weight: 600;
   padding: 0;
   width: 150px;
@@ -678,8 +678,10 @@ gap: 10px;
 .form-container .btn2{
   color: var(--sandy-brown);
   font-weight: 600;
+  width: 120px;
  
 }
+
 
 .submit-btn{
   display: flex;
@@ -721,11 +723,11 @@ gap: 10px;
 
 .btn-secondary {
   background: #fff;
-  color: #1f5c8f;
+  color:  var(--sandy-brown);
   border-radius: 0;
 }
 .btn-secondary:hover {
-  background: #1f76bd;
+  background: var(--sandy-brown);
   color: #fff;
 }
 
@@ -1111,7 +1113,9 @@ gap: 10px;
   .navbar-main li:active .submenu li,
   .navbar-main li:focus .submenu li {
     background: white;
-    border-top-color: var(--sandy-brown);
+    color: var(--main-title);
+    border-top-color: var(--main-title);
+    font-weight: 600;
   }
 
   .carousel-home .carousel-title {
