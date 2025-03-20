@@ -80,7 +80,8 @@ a:hover, a:focus, a:active {
 .navbar-main .submenu {
   position: absolute;
   list-style: none;
-  background: white;
+  background: var(--ter);
+  font-weight: 600;
   padding: 0;
   width: 150px;
   left: -35px;
@@ -93,6 +94,7 @@ a:hover, a:focus, a:active {
 }
 .navbar-main .submenu li {
   border-top: 1px solid var(--sandy-brown);
+  
 }
 .navbar-main .submenu li:hover {
   background: var(--sandy-brown);
@@ -476,9 +478,10 @@ a:hover, a:focus, a:active {
   position: relative;
   margin-top: 20px;
   display: flex;
- 
-    gap: 15px; 
-    bottom:  10px;
+  align-items: center;
+  justify-content: center;
+  gap: 15px; 
+  bottom:  10px;
 }
 
 .footer .footer-social a {
@@ -1041,6 +1044,8 @@ gap: 10px;
   .reasons-col:hover .on-hover {
     padding: 25px;
   }
+
+ 
 }
 /* Medium devices (desktops, 992px and Donw) */
 @media (max-width: 992px) {
