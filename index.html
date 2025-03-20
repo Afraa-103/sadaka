@@ -31,7 +31,6 @@
         <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
 
 
-
     </head>
 
     <body>
@@ -73,15 +72,11 @@
                       <ul class="submenu">
                          <li class="submenu-item"><a href="causes.html">Causes list </a></li>
                          <li class="submenu-item"><a href="causes-single.html">Single cause </a></li>
-                         <li class="submenu-item"><a href="Details.html">Details Page</a></li>
-                         <li class="submenu-item"><a href="causes-single.html">Single cause </a></li>
+                         <li class="submenu-item"><a href="States.html">States Page</a></li>
                       </ul>
 
                     </li>
                     <li><a href="gallery.html">GALLERY</a></li>
-                    <li><a href="event.html">Event</a></li>
-                    <li><a href="blog.html">Blogs</a></li>
-
                     <li><a href="contact.html">CONTACT</a></li>
 
                   </ul>
@@ -572,7 +567,7 @@
 
 
 
-    <div class="section-home our-sponsors animate-onscroll fadeIn">
+   <!--  <div class="section-home our-sponsors animate-onscroll fadeIn">
     
         <div class="container">
 
@@ -596,62 +591,29 @@
 
         </div>
 
-    </div> <!-- /.our-sponsors -->
+    </div> -->
 
 
     
 
 
     <div class="footer">
-      <div class="container">
-          <div class="row">
-              <div class="col-lg-3 col-md-6">
+
+        <div class="container">
+           <div class="row">
+             <div class="col-lg-3 col-md-6">
                   <div class="footer-contact">
-                      <h2>Our Head Office</h2>
-                      <p><i class="fa fa-map-marker-alt"></i>123 Street, New York, USA</p>
-                      <p><i class="fa fa-phone-alt"></i>+012 345 67890</p>
-                      <p><i class="fa fa-envelope"></i>info@example.com</p>
+                    
                       <div class="footer-social">
-                          <a class="btn btn-custom" href=""><i class="fab fa-twitter"></i></a>
                           <a class="btn btn-custom" href=""><i class="fab fa-facebook-f"></i></a>
                           <a class="btn btn-custom" href=""><i class="fab fa-youtube"></i></a>
                           <a class="btn btn-custom" href=""><i class="fab fa-instagram"></i></a>
-                          <a class="btn btn-custom" href=""><i class="fab fa-linkedin-in"></i></a>
                       </div>
-                  </div>
-              </div>
-              <div class="col-lg-3 col-md-6">
-                  <div class="footer-link">
-                      <h2>Popular Links</h2>
-                      <a href="">About Us</a>
-                      <a href="">Contact Us</a>
-                      <a href="">Popular Causes</a>
-                      <a href="">Upcoming Events</a>
-                      <a href="">Latest Blog</a>
-                  </div>
-              </div>
-              <div class="col-lg-3 col-md-6">
-                  <div class="footer-link">
-                      <h2>Useful Links</h2>
-                      <a href="">Terms of use</a>
-                      <a href="">Privacy policy</a>
-                      <a href="">Cookies</a>
-                      <a href="">Help</a>
-                      <a href="">FQAs</a>
-                  </div>
-              </div>
-              <div class="col-lg-3 col-md-6">
-                  <div class="footer-newsletter">
-                      <h2>Newsletter</h2>
-                      <form>
-                          <input class="form-control" placeholder="Email goes here">
-                          <button class="btn btn-custom">Submit</button>
-                          <label>Don't worry, we don't spam!</label>
-                      </form>
                   </div>
               </div>
           </div>
       </div>
+
       <div class="container copyright">
           <div class="row">
               <div class="col-md-6">
@@ -700,6 +662,21 @@
                             </div>
                         </div>
 
+                        
+                        <div class="row">
+                          <div class="form-group col-md-6">
+                              <input type="text" class="form-control" name="Age" placeholder="Age*">
+                          </div>
+
+                          <div class="form-group col-md-6">
+                            <select class="form-control" name="Gender">
+                                <option value="female">Female</option>
+                                <option value="male">Male</option>
+                                <option value="others">Others</option>
+                            </select>
+                        </div>
+                      </div>
+
 
                         <div class="row">
 
@@ -728,6 +705,13 @@
                                 <textarea cols="30" rows="4" class="form-control" name="note" placeholder="Additional note"></textarea>
                             </div>
 
+                            <div class="form-group col-md-12">
+                              <label for="file" class="custom-file-upload">
+                                  <i class="fas fa-cloud-upload-alt"></i>Choose File
+                              </label>
+                              <input type="file" class="form-control-file" id="file">
+                              <span id="file-name">No File Choosen</span>
+                          </div>
                         </div>
 
                         <div class="row">
@@ -735,6 +719,7 @@
                             <div class="form-group col-md-12">
                                 <button type="submit" class="btn btn-primary pull-right" name="donateNow" >DONATE NOW</button>
                             </div>
+
 
                         </div>
 
